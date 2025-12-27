@@ -1,6 +1,13 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import TimelinePeopleFlowComercial from "@/timelineComponent/PeopleFlowComercialTimeline";
 import TimelineTrustERP from "@/timelineComponent/TrustErpTimeline";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Timeline De actividades",
+  description:
+    "Este timeline mueestra las actividades de PF Comercial y el timeline del ERP de Trust",
+};
 
 export default function Home() {
   return (
