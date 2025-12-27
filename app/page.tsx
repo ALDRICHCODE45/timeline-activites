@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Tabs defaultValue="PFComercial" className="w-full">
-        <div className="flex justify-center mb-6 sm:mb-8 px-3 sm:px-0">
+        <div className="flex justify-center mb-6 sm:mb-8 px-3 sm:px-0m pt-10">
           <TabsList className="h-10 sm:h-12 px-1">
             <TabsTrigger
               value="PFComercial"
